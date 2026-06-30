@@ -1,78 +1,174 @@
-# VISION
+# Writing Guide — VISION.md
 
-## Mission
+## Purpose
 
-一句话说明项目存在的原因。
+VISION.md defines the long-term identity of a project.
 
-回答：
+Unlike a PRD or technical design document, it does **not** explain what the system does or how it is built.
 
-为什么世界上需要这个项目？
+Instead, it answers a deeper question:
 
----
+> **Why should this project exist?**
 
-## Problem
-
-这个项目解决什么问题？
-
-现有方案有什么不足？
+A good vision remains meaningful long after technologies, frameworks, and implementation details have changed.
 
 ---
 
-## Target Users
+# What VISION Is
 
-谁会使用这个项目？
+A Vision is:
 
-核心用户是谁？
+* A long-term statement of purpose.
+* A description of the future the project hopes to create.
+* A collection of enduring beliefs.
+* A guide for future decision making.
 
----
-
-## Core Value
-
-项目提供什么核心价值？
-
-用户为什么选择它？
+If two implementation options are equally valid, the Vision should help determine which one better aligns with the project's long-term direction.
 
 ---
 
-## Principles
+# What VISION Is Not
 
-项目长期坚持的原则。
+VISION.md is **not**:
 
-例如：
+* A feature list.
+* A roadmap.
+* A technical specification.
+* A system architecture.
+* A marketing page.
+* A project introduction.
 
-- Simplicity First
-- AI Native
-- Open Architecture
-- Extensible Design
-
----
-
-## Non-Goals
-
-明确项目不做什么。
-
-例如：
-
-- 不做企业级ERP
-- 不做低代码平台
-- 不做社交网络
+Those belong in other documents.
 
 ---
 
-## Success Criteria
+# Writing Principles
 
-什么叫成功？
+A good Vision should be:
 
-例如：
+### Stable
 
-- 1000 active users
-- 100 open-source contributors
-- 10 production deployments
+It should remain meaningful for many years.
+
+Avoid references to specific technologies or temporary trends.
 
 ---
 
-## Future Vision
+### Inspirational
 
-如果项目发展顺利。
+Describe the future you hope to create, not today's implementation.
 
-3~5年后会变成什么？
+---
+
+### Concise
+
+Every sentence should introduce a new idea.
+
+Avoid repetition.
+
+Prefer clarity over length.
+
+---
+
+### Technology Independent
+
+Do not mention:
+
+* Programming languages
+* Frameworks
+* Databases
+* APIs
+* Infrastructure
+
+Those decisions belong elsewhere.
+
+---
+
+# The Five Sections
+
+## 1. Why We Exist
+
+Explain why the project deserves to exist.
+
+Focus on the problem rather than the solution.
+
+---
+
+## 2. The Future We Believe In
+
+Describe the future your project hopes to create.
+
+Think in terms of years, not releases.
+
+---
+
+## 3. Our Core Beliefs
+
+Document the principles that should survive every refactor, rewrite, and redesign.
+
+If these beliefs change, the project itself has fundamentally changed.
+
+---
+
+## 4. What We Will Never Become
+
+Boundaries are part of identity.
+
+Explicitly stating what the project refuses to become helps prevent long-term scope drift.
+
+---
+
+## 5. Our North Star
+
+End with one concise statement describing the direction that guides every major decision.
+
+A good North Star answers:
+
+> "If we are unsure what to do next, what should guide us?"
+
+---
+
+# Ten-Year Test
+
+Before finalizing your Vision, ask:
+
+* Will this still be true in ten years?
+* Does this remain meaningful if today's technology disappears?
+* Does it describe beliefs instead of implementation?
+* Would future contributors understand the purpose of the project?
+
+If the answer is "yes", the Vision is likely stable enough.
+
+---
+
+# Recommended Length
+
+500–1200 words.
+
+Long enough to communicate beliefs.
+
+Short enough to be read in under five minutes.
+
+---
+
+# Relationship to Other Documents
+
+VISION answers:
+
+> Why should this project exist?
+
+PRD answers:
+
+> What should the project do?
+
+PROJECT_BLUEPRINT answers:
+
+> How should the system be organized?
+
+AGENTS answers:
+
+> How should humans and AI collaborate while building it?
+
+Each document has one responsibility.
+
+Avoid duplicating knowledge across documents.
